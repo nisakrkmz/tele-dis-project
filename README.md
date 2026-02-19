@@ -74,3 +74,5 @@ src/
 ├── navigation/    # Uygulama navigasyon yapılandırması
 └── screens/       # Uygulama ekranları
 ```
+Expo Karekod
+<img width="334" height="311" alt="image" src="https://github.com/user-attachments/assets/86c589c3-ec5b-4f54-bd57-2ba238d541db" />
