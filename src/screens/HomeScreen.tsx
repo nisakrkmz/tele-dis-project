@@ -14,8 +14,8 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
     { id: '1', title: 'Hasta Listesi', icon: 'people', screen: 'PatientList', color: '#4CAF50' },
-    { id: '2', title: 'Profilim', icon: 'person', color: '#2196F3' }, // Placeholder screens for now
-    { id: '3', title: 'Geri Bildirim', icon: 'chatbubbles', color: '#FF9800' },
+    { id: '2', title: 'Profilim', icon: 'person', screen: 'Profile', color: '#2196F3' },
+    { id: '3', title: 'Geri Bildirim', icon: 'chatbubbles', screen: 'Feedback', color: '#FF9800' },
     { id: '4', title: 'Çıkış Yap', icon: 'log-out', screen: 'Login', color: '#F44336' },
 ];
 

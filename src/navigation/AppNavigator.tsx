@@ -10,6 +10,8 @@ import PatientInfoScreen from '../screens/PatientInfoScreen';
 import AnamnezScreen from '../screens/AnamnezScreen';
 import PhotoScreen from '../screens/PhotoScreen';
 import EvaluationScreen from '../screens/EvaluationScreen';
+import ProfileScreen from '../screens/ProfileScreen';
+import FeedbackScreen from '../screens/FeedbackScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +27,8 @@ const AppNavigator = () => {
                 <Stack.Screen name="Anamnez" component={AnamnezScreen} />
                 <Stack.Screen name="Photo" component={PhotoScreen} />
                 <Stack.Screen name="Evaluation" component={EvaluationScreen} />
+                <Stack.Screen name="Profile" component={ProfileScreen} />
+                <Stack.Screen name="Feedback" component={FeedbackScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );
